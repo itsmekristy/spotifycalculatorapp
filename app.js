@@ -4,8 +4,8 @@ const express = require('express');
 const app = express();
 
 // Configure the Spotify credentials
-const SPOTIFY_CLIENT_ID = '9f96898a3a7042dfa601d2f52452a612';
-const SPOTIFY_CLIENT_SECRET = '9341fa554264469f9f5ceb3b90c5c28b';
+const SPOTIFY_CLIENT_ID = 'your_client_id';
+const SPOTIFY_CLIENT_SECRET = 'your_client_secret';
 const SPOTIFY_REDIRECT_URI = 'http://localhost:3000'
 const SCOPES = 'user-read-recently-played';
 
